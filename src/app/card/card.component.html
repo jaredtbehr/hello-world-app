@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   body {
+      font-family: sans-serif;
+      background-color: rgb(230,232,244);
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .card {
+      color: black;
+      float: left;
+      width: 267px;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 80px;
+      height: 310px;
+   }
+   .card p {
+      font-size: 18px;
+      margin-top:15px;
+      
+   }
+   .cardContainer:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+   @media screen and (max-width: 600px) {
+      .card {
+         width: 100%;
+      }
+   }
+   
+   
+</style>
+</head>
+<body>
+    <div class="cardContainer">
+
+        <div class="card text-center" style="background-color:white;">
+            <p><img src="/assets/img/lightning-fill.svg" alt="Bootstrap" width ="46.9" height = "60.0167"></p>
+            <h2>Reaction Time</h2>
+            <p>Test your visual reflexes.</p>
+        </div>
+
+        <div class="card text-center" style="background-color:white;">
+            <p><img src="/assets/img/columns-gap.svg" alt="Bootstrap" width ="46.9" height = "60.0167"></p>
+            <h2>Sequence Memory</h2>
+            <p>Remember an increasingly long pattern of button presses.</p>
+        </div>
+
+        <div class="card text-center" style="background-color:white;">
+            <p><img src="/assets/img/bullseye.svg" alt="Bootstrap" width ="46.9" height = "60.0167"></p>
+            <h2>Aim Trainer</h2>
+            <p>How quickly can you hit all the targets?</p>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
